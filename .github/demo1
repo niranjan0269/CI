@@ -1,0 +1,8 @@
+on: workflow_dispatch
+jobs:
+  This is the first jobs:
+    runs-on: ubuntu-latest
+    steps:
+      - name: first-step
+      - run: echo "This is the first step"
+      - run: echo "${{github.actor}}, welcome to the first demo action"
